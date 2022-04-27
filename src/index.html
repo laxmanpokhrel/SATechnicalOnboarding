@@ -1,99 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--Recommended Meta Tags-->
+    <meta name="language" content="english">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="author" content="Laxman Pokhrel">
+    <meta name="designer" content="Laxman Pokhrel">
+    <meta name="publisher" content="Laxman Pokhrel">
+
+    <!--Search Engine Optimization Meta Tags-->
+    <meta name="description"
+        content="Laxman Pokhrel, self taught full stack web and app developer from Kathmandu, Nepal.">
+    <meta name="keywords"
+        content="Laxman Pokhrel, Laxu,lax-man, web developer, app developer , modern web developer, tech enthusiast , kathmandu,lalitpur, Nepal, Nepal College of Information technology, NCIT, Pokhara University,">
+    <meta name="robots" content="index,follow">
+    <meta name="distribution" content="web">
+
+    <!--Optional Meta Tags-->
+    <meta name="web_author" content="Laxman Pokhrel">
+    <meta name="rating" content="general">
+    <meta name="rating" content="safe for kids">
+    <meta name="subject" content="Personal">
+    <meta name="abstract" content="Laxman Pokhrel is a self taught full stack web and app developer.">
+    <meta name="city" content="Kathmandu">
+    <meta name="country" content="Nep">
+    <meta name="distribution" content="global">
+    <meta name="classification" content="Laxman Pokhrel is a self taught full stack web and app developer.">
+
+    <!--http-equiv Tags-->
+    <!-- <meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript"> -->
+
+
+
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./public/Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./public/Images/favicon-16x16.png">
+    <link rel="manifest" href="./public/Images/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lobster&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <title>Laxman Pokhrel</title>
 </head>
+
 <body>
+    <nav>
+        <div class="logo">
+            <h1>Laxman.</h1>
+        </div>
+    </nav>
+
+    <div class="burger-container">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <div class="navigationContainer">
+        <div class="arrow"><i class="fas fa-chevron-circle-right fa-3x"></i></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="./public/Laxman_Pokhrel_CV.pdf" download="">Resume<i class="fas fa-file-download fa-1x"></i></a>
+        </div>
+    </div>
+
     <main>
-        <article class="box">
-            <h1>Your Name</h1>
-            <div><a href="mailto:your.email@example.com">your-email@example.com</a></div>
-            
-            <section class="box">
-                <h2>
-                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                    Social media
-                </h2>
-                <ul>
-                    <li><a href="https://github.com/<handle>">@github_handle</a></li>
-                    <li><a href="https://linkedin.com/in/<handle>">@linkedin_handle</a></li>
-                    <li><a href="https://twitter.com/<handle>">@twitter_handle</a></li>
-                </ul>    
-            </section>
-            
-            <section class="box">
-                <div class="education">
-                    <h2>
-                        <i class="fa fa-certificate" aria-hidden="true"></i>
-                        School name
-                    </h2>
-                    <h3>Major</h3>
-                    <ul>
-                        <li>GPA: 4.0</li>
-                        <li>Years</li>
-                    </ul>
+        <!-- <div class="blue_background"></div> -->
+        <div class="landing blue_background" id="home">
+            <div class="avatar">
+                <img src="./public/Images/hero.jpeg" alt="Profile Image" />
+            </div>
+            <div class="intro">
+                <div class="greet">
+                    Hi, I am
+                    <h1>Laxman.</h1>
                 </div>
-            </section>
-
-            <section class="box">
-                <h2>
-                    <i class="fa fa-check" aria-hidden="true"></i>
-                    Skills
-                </h2>
-                <ul>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>Visual Studio Code</li>
-                </ul>
-            </section>
-        </article>
-        <article class="box">
-            <section class="box">
-                <h2>
-                    <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    Experience
-                </h2>
-                <h3>Microsoft Learn Student Ambassador</h3>
-                <ul>
-                    <li>Some skill</li>
-                    <li>Another skill</li>
-                </ul>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-building" aria-hidden="true"></i>
-                    Internships
-                </h2>
-
-                <h3>Company name</h3>
-                <ul>
-                    <li>Accomplishment</li>
-                    <li>Another accomplishment</li>
-                </ul>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
-                    Projects
-                </h2>
-                
-                <h3>Great hackathon</h3>
-                <div>This was a great hack!</div>
-                <ul>
-                    <li>Cool technology used</li>
-                    <li>Prize won</li>
-                </ul>
-            </section>
-        </article>
-    
+                <h2>I am a full stack web developer</h2>
+                <h3>
+                    <q>I always strive to achieve excellence in the products that I
+                        build.
+                    </q>
+                </h3>
+            </div>
+        </div>
     </main>
+
+    <!-- about section  -->
+
+    <div class="about-container" id="about">
+        <div class="title">
+            <p>My favorite <small>quote</small> of all times,</p>
+        </div>
+        <div class="fieldset">
+            <p class="quote animate__animated animate__fadeIn quotation" data-aos="zoom-in">
+                <span>" </span>Strive not to be a success but rather of a
+                value<span>"</span>.
+            </p>
+            <hr data-aos="zoom-in" />
+
+            <legend class="einstein" cdata-aos="zoom-out-up">Albert Einstein</legend>
+            <p class="desc">
+                This quote sums up my entire work philosophy vividly. I give more
+                value, discipline and respect to my work. I center my focus to the
+                needs and requirements of the client and try to understand what it is
+                that they truly need. I am someone who loves to take on challenges
+                with an open mind and I take myself to be a firm believer of the
+                process of learning and growing more and more, everyday.
+            </p>
+        </div>
+
+        <p class="about">/about/</p>
+    </div>
+
+    <!-- skill section -->
+    <div class="skills-section" id="skills">
+        <div class="skill-head">
+            <h1>Skills</h1>
+        </div>
+        <div class="skill-known">
+            <div class="skill" data-aos="flip-right">
+                <img src="./public/Images/c-java.png" alt="c-java collection" class="icon-img" />
+                <div class="skill-para">
+                    <h1>C, C++, C#, Java.</h1>
+                    <h2>Programming in c, c++ and c# gave me the core concepts of programming.</h2>
+                </div>
+            </div>
+            <div class="skill" data-aos="flip-right">
+                <div class="skill-para">
+                    <h1>HTML, CSS, JS and Bootstrap.</h1>
+                    <h2>I am proficient in these language by learning by self.</h2>
+                </div>
+                <img src="./public/Images/html-css.png" alt="html,css,ja bootsrtap collection" class="icon-img" />
+            </div>
+            <div class="skill" data-aos="flip-right">
+                <img src="./public/Images/nodeExpress.png" alt="Node, Express collection" class="icon-img" />
+                <div class="skill-para">
+                    <h1>JavaScript (Node, Express.js).</h1>
+                    <h2>These programming language gave me the real pleasure while programming by there super powerfull
+                        tools.
+                    </h2>
+                </div>
+            </div>
+            <div class="skill" data-aos="flip-right">
+                <div class="skill-para">
+                    <h1>Database (MYSQL & MONGO DB).</h1>
+                    <h2>I am well know to relational and non-relational database. My university curriculum offers this
+                        topic and I
+                        have their good knowledge.</h2>
+                </div>
+                <img src="./public/Images/mysql-mongo.png" alt="mysql, mongodb collection" class="icon-img" />
+            </div>
+
+            <div class="skill" data-aos="flip-right">
+                <img src="./public/Images/SEO.png" alt="SEO banner" class="icon-img" />
+                <div class="skill-para">
+                    <h1>Search Engine Optimization.</h1>
+                    <h2> I am well known that "Search Engine Optimization" is the process of improving site to increase
+                        its
+                        visibility when people search for products or services related to their business in Google,
+                        Bing, and other
+                        search engines.</h2>
+                </div>
+            </div>
+            <div class="skill" data-aos="flip-right">
+                <div class="skill-para">
+                    <h1>Version Control (GIT).</h1>
+                    <h2>Proficient in using Git and GitHub.<h2>
+                </div>
+                <img src="./public/Images/git-github.png" alt="Version Control with git and github icon"
+                    class="icon-img" />
+            </div>
+
+
+
+            <div class="skill" data-aos="flip-right">
+                <img src="./public/Images/videoEditing.png" alt="Video editing Banner" class="icon-img" />
+                <div class="skill-para">
+                    <h1>Video Editing.</h1>
+                    <h2>Additional skill</h2>
+                    <i class="fas fa-search-plus fa-2x"></i>
+                </div>
+            </div>
+            <div class="skill" data-aos="flip-right">
+                <div class="skill-para">
+                    <h1> Domain/Web Hosting.</h1>
+                    <h2>Additional skill</h2>
+                    <i class="fas fa-search-plus fa-2x"></i>
+
+                </div>
+                <img src="./public/Images/webHosting.png" alt="Domain/webHosting Banner" class="icon-img" />
+            </div>
+
+
+
+            <div class="skill" data-aos="flip-right">
+                <img src="./public/Images/microsoft.png" alt="Microsoft banner" class="icon-img" />
+                <div class="skill-para">
+                    <h1>Technically proficient in Microsoft Dev Tools.</h1>
+                    <h2>Additional skill</h2>
+                    <i class="fas fa-search-plus fa-2x"></i>
+
+                </div>
+            </div>
+            <div class="skill" data-aos="flip-right">
+                <div class="skill-para">
+                    <h1>Public Speaking.</h1>
+                    <h2>Additional skill</h2>
+                    <i class="fas fa-search-plus fa-2x"></i>
+
+                </div>
+                <img src="./public/Images/publicSpeaking.png" alt="Public Speaking" class="icon-img" />
+            </div>
+
+        </div>
+        <p class="about">/skills/</p>
+    </div>
+
+    <!-- Projects section -->
+
+    <div class="project_container" id="project">
+        <h1>My Projects</h1>
+        <div class="project" data-aos="zoom-in">
+            <div class="project-info">
+                <div class="project-info-head">
+                    <h1 class="project-title">Yeti Army | NFT</h1>
+                    <small>Build on HTML5, CSS3 and JavaScript</small>
+                </div>
+                <p>
+                    Yeti Army | NFT project where you can adopt your own Yeti Armies who will fight
+                    with you to take the world back.
+                </p>
+                <a href="https://yeti.army" target="blank"><i class="fas fa-globe fa-3x"></i></a>
+            </div>
+            <img src="./public/Images/YetiArmyjpg.jpg" alt="Yeri Army | NFT" class="icon-img" />
+        </div>
+        <div class="project" data-aos="zoom-in">
+            <div class="project-info">
+                <div class="project-info-head">
+                    <h1 class="project-title">Infix to Postfix Expression Converter.</h1>
+                    <small>Build on HTML5, CSS3 and JavaScript</small>
+                </div>
+                <p>
+                    This basically converts marhematical expressions written in infix notation
+                    (notation commonly used in arithmetical and logical formulae and statements )
+                    to postfix notation ( also known as Reverse Polish notation (RPN) or simply postfix
+                    notation, is a mathematical notation in which operators follow their operands )
+                </p>
+                <a href="https://github.com/lax-man7274/webTRON-InfixToPostfix.git" target="blank"><i
+                        class="fab fa-github-square fa-3x"></i></a>
+            </div>
+            <img src="./public/Images/infix-postfix.PNG" alt="infix-postfix-converter github link" class="icon-img" />
+        </div>
+
+        <div class="project" data-aos="zoom-in">
+            <div class="project-info">
+                <div class="project-info-head">
+                    <h1 class="project-title">Customizable Portfolio.</h1>
+                    <small>Build on HTML5, CSS3 and JavaScript, node.js and express.js</small>
+                </div>
+                <p>
+                    A portfolio website developed by me and my team,
+                    which is completely userfriendly and customizable.
+                    This was build with the aim to provide clients easy to
+                    use and update their portfolio by themselves. This web app can
+                    be integrated with both relational and non-relational databases.
+                </p>
+                <a href="https://github.com/lax-man7274/Portfolio-Website-Node-Express" target="blank"><i
+                        class="fab fa-github-square fa-3x"></i></a>
+            </div>
+            <img src="./public/Images/CustomizablePortfolio.PNG" alt="Custimizable Portfolio github link"
+                class="icon-img" />
+        </div>
+
+        <div class="project" data-aos="zoom-in">
+            <div class="project-info">
+                <div class="project-info-head">
+                    <h1 class="project-title">Hospital Managenment Software.</h1>
+                    <small>Build on C#, .NET Framework.</small>
+                </div>
+                <p>
+                    This is basically a desktop app designed to eliminate paper work on hospitals. Project is still
+                    under
+                    development phase.
+                </p>
+                <a href="https://github.com/lax-man7274/webTRON-Management-Software" target="blank"><i
+                        class="fab fa-github-square fa-3x"></i></a>
+            </div>
+            <img src="./public/Images/webTRON.PNG" alt="WebTRON managenment Software github link" class="icon-img" />
+        </div>
+        <p class="about">/project/</p>
+    </div>
+
+    <!-- resume section -->
+
+    <!-- contact section -->
+    <div class="contact-container" id="contact">
+        <div class="laxman" data-aos="flip-down">
+            <div class="outline"></div>
+            <div class="name">Laxman Pokhrel</div>
+        </div>
+
+        <div class="info">
+            <div class="bornIn animate__animated animate__fadeInLeft" data-aos="fade-left">
+                <i class="fas fa-home fa-2x"></i>
+                <div class="text">Born in: Arghakhanchi, Nepal</div>
+            </div>
+            <div class="livesIn animate__animated animate__fadeInLeft" data-aos="fade-left">
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <div class="text">Lives in: Kathmandu, Nepal</div>
+            </div>
+            <div class="email animate__animated animate__fadeInLeft" data-aos="fade-left">
+                <i class="fas fa-envelope fa-2x"></i>
+                <div class="text"><a href="mailto:laxmanpokhrel102@gmail.com">laxmanpokhrel102@gmail.com</a></div>
+            </div>
+        </div>
+        <div class="currently-working">
+            <h1>Other Portfolio</h1>
+            <div class="works" data-aos="flip-right">
+                <div class="work">
+                    <i class="fab fa-microsoft fa-3x"></i>
+                    <h2> Working as Microsoft Learn Student Ambassador at Microsoft</h2>
+                </div>
+                <div class="work">
+                    <i class="fas fa-briefcase fa-3x"></i>
+                    <h2> Worked as a Partnership Diplomat for AIESEC in Patan (Local body of AIESEC in Nepal)</h2>
+                </div>
+                <div class="work">
+                    <i class="fas fa-campground fa-3x"></i>
+                    <h2>Manages own startup named, <a href="https://www.facebook.com/webTRON2021" target="blank">webTRON
+                            Tech</a>
+                    </h2>
+                </div>
+                <div class="work">
+                    <i class="fas fa-camera-retro fa-3x"></i>
+                    <h2>Manages own photography page on FACEBOOK, <a href="https://www.facebook.com/spectrolence"
+                            target="blank">SPECTROLENCE</a></h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="social-links">
+            <h1>You can also find me at</h1>
+            <div class="links" data-aos="zoom-in-down">
+                <a href="https://www.facebook.com/laxman.pokhrel.14" target="blank"><img id="facebook"
+                        src="./public/Images/facebook.png" alt="facebook icon" /></a><a
+                    href="https://github.com/lax-man7274" target="blank"><img id="github"
+                        src="./public/Images/github_PNG40.png" alt="github" /></a>
+                <a href="https://www.clubhouse.com/@laxman.pokhrel" target="blank"><img id="clubhouse"
+                        src="./public/Images/clubhouse.jpg" alt="clubHouse icon" /></a>
+                <a href="mailto:laxmanpokhrel102@gmail.com" target="blank"><img id="google"
+                        src="./public/Images/google.png" alt="google" /></a>
+                <a href="https://www.linkedin.com/in/laxman-pokhrel-2563a7208/" target="blank"><img id="linkedin"
+                        src="./public/Images/linkedin.png" alt="linkedin icon" /></a>
+            </div>
+        </div>
+        <p class="contact">/contact/</p>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            <small>All right reserved to <i class="far fa-copyright"></i> Laxman
+                Pokhrel
+            </small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./public/js/app.js"></script>
 </body>
+
 </html>

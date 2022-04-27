@@ -1,0 +1,101 @@
+.landing {
+    width: 80%;
+    min-height: 100rem;
+    overflow: hidden;
+
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+    &::before {
+        content: '';
+        background-color: #007979;   
+        width: 100rem;
+        height: 100rem;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -65%);
+        margin: 0 auto;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .avatar {
+        // transform: translateY(50%);
+        overflow: hidden;
+        border-radius: 50%;
+        border: .5rem solid #e86d00;
+        img {
+            width: 30rem;
+            height: 30rem;
+            border: 1.5rem solid  #006e6e;
+            border-radius: 50%;
+        }
+
+    }
+
+    .intro {
+        // transform: translateY(70%);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top:5rem;
+        text-align: center;
+
+        .greet{
+            font-size: 2rem;
+            font-family: 'Comfortaa', cursive;
+            font-family: Comfortaa;
+            font-weight: 400;
+            letter-spacing: 3px;
+            
+            h1{
+                font-size: 5rem;
+                color: #e86d00;
+                display: inline-block;
+                font-weight: bold;
+                letter-spacing: 1.5px;
+               
+            }
+        }
+            h2{
+                font-size: 3rem;
+                font-family: 'Comfortaa', cursive;
+                color: #4A4A4A;
+                margin-top:2.5rem;
+                letter-spacing: 3px;
+            }
+            h3{
+                font-size: 1.6rem;
+                font-family: 'Comfortaa', cursive;
+                color: #575757;
+                margin-top:1.5rem;
+                margin-top: 2rem;
+                letter-spacing: 1.5px;
+            }
+        
+    }
+
+}
+
+
+@media  screen and(max-width: 700px) {
+html{
+    font-size: 55%;
+}
+    
+    .landing{
+        width:100%;
+
+        .avatar{
+            transform: translateY(-30%);
+        }
+    }
+}
